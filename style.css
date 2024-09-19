@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.ta-center { text-align: center; }
+.ta-justify { text-align: justify; }
+.fw-900 { font-weight: 900; }
+.fs-48 { font-size: 48px; }
+.fs-36 { font-size: 36px; }
+.fs-18 { font-size: 18px; }
+
 body {
     margin: 0;
     padding: 0;
@@ -36,6 +43,10 @@ button {
     color: #f9faf8;
 }
 
+.headline {
+    margin-bottom: 48px;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -53,6 +64,13 @@ button {
     align-items: center;
 }
 
+#page-logo {
+    flex-shrink: 0;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .headline-container, .image-placeholder {
     display: flex;
     justify-content: center;
@@ -61,11 +79,6 @@ button {
 
 .headline-container {
     gap: 24px;
-}
-
-#main-text {
-    font-size: 48px;
-    font-weight: 900px;
 }
 
 #hero-img{
@@ -80,9 +93,39 @@ button {
     gap: 10px;
 }
 
-#page-logo {
-    flex-shrink: 0;
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: 900;
+.page-content {
+    
 }
+
+.page-container {
+    padding: 0 24px;
+    margin-bottom: 96px;
+}
+
+.page-header-title {
+    margin-bottom: 48px;
+}
+
+.page-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card-container {
+    height: 290px;
+    width: 180px;
+}
+
+.cards {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border: solid;
+    border-radius: 10px;
+    border-color: #2883F6;
+    border-width: 5px;
+    margin-bottom: 10px;
+}
+
