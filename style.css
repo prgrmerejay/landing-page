@@ -15,8 +15,25 @@
 .fs-24 { font-size: 24px; }
 .fs-18 { font-size: 18px; }
 .bg-grey { background-color: #E5E7EB;}
+.bg-darkblue { background-color: #1f2937; }
+.bg-cta-form { background-color: #2883F6; border-radius: 10px; }
 .clr-darkblue { color: #1f2937; }
+.clr-wht { color: #f9faf8; }
 .wd-960 { width: 960px; }
+.border-white { border: solid; border-color: white; border-width: 2px; }
+
+.padding-tb-24 { padding: 24px;}
+
+.flex-spacearound {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body {
     margin: 0;
@@ -106,6 +123,11 @@ button {
     margin-bottom: 96px;
 }
 
+.footer-container {
+    padding: 0 24px;
+    margin-bottom: 96px;
+}
+
 .page-header-title {
     margin-bottom: 48px;
 }
@@ -140,4 +162,10 @@ button {
     flex-direction: column;
     padding: 96px 0;
 }
+
+.cta-form {
+    padding: 48px 144px;
+    gap: 100px;
+}
+
 
